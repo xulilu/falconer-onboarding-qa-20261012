@@ -1,0 +1,16 @@
+---
+title: Nimbus QA v2 migration
+description: Applying the current v2 defaults
+---
+
+# Nimbus QA v2 migration
+
+The Nimbus QA v2 migration completed on 2026-10-12.
+All workspaces now run v2.
+The overview, API reference, and operations guide all describe the same current v2 configuration.
+There is no legacy v1 service left running.
+
+For the canonical settings, inspect src/config.json.
+The migration does not allow per-organization overrides.
+When moving a workspace, export its documents and validate the resulting file before importing it.
+The export format and exact import validation procedure should be stated here so an operator can complete the migration safely.

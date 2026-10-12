@@ -1,0 +1,1 @@
+{"version":2,"effectiveAt":"2026-10-12","tokenExpiryMinutes":15,"maxApiKeys":10,"defaultPageSize":100,"webhookRetries":3,"revisionRetentionDays":7,"region":"us-west-2","authHeader":"Authorization","authScheme":"Bearer","requestsPerMinute":100,"maxMembers":20,"exportFormat":"JSON","syncStartUtc":"02:00","deletedDocumentRetentionDays":14}

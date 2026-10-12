@@ -1,0 +1,24 @@
+---
+title: Nimbus QA overview
+description: Current Nimbus QA platform configuration
+---
+
+# Nimbus QA overview
+
+Nimbus QA is a fictional document synchronization service used only as a staging test fixture.
+This page describes the current Nimbus QA v2 production settings, effective 2026-10-12.
+
+Access tokens expire after 15 minutes.
+An organization can create a maximum of 10 API keys.
+API pagination returns 100 records per page by default.
+Webhook deliveries are retried exactly 3 times before failure.
+Document revision history is retained for 7 days.
+The service stores all customer documents in us-west-2.
+The API uses the Authorization header with a Bearer token.
+Per-organization request limits are 100 requests per minute.
+A workspace supports at most 20 members.
+Export jobs produce JSON files.
+The daily sync schedule starts at 02:00 UTC.
+Deleted documents are recoverable for 14 days.
+
+All twelve settings apply to every new Nimbus QA v2 organization.

@@ -1,0 +1,1 @@
+{"$schema":"https://mintlify.com/docs.json","theme":"mint","name":"Nimbus QA","colors":{"primary":"#2563eb"},"navigation":{"groups":[{"group":"Nimbus QA","pages":["overview","api","operations","migration"]}]}}
